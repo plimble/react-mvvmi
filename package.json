@@ -1,0 +1,36 @@
+{
+  "name": "react-mvvmi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.8.2",
+    "mobx": "^5.0.4",
+    "mobx-react": "^5.2.5",
+    "react": "^16.4.2",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start --scripts-version react-scripts-ts",
+    "build": "react-app-rewired build --scripts-version react-scripts-ts",
+    "test": "react-app-rewired test --scripts-version react-scripts-ts --env=jsdom",
+    "eject": "react-app-rewired eject --scripts-version react-scripts-ts"
+  },
+  "devDependencies": {
+    "@types/create-react-class": "^15.6.2",
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.9.1",
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "@types/react-router-dom": "^4.3.0",
+    "babel-plugin-import": "^1.8.0",
+    "react-scripts-ts": "2.17.0",
+    "ts-import-plugin": "^1.5.4",
+    "typescript": "^3.0.1"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:plimble/react-mvvmi.git",
+  "author": "witooh <witoo@plimble.com>",
+  "license": "MIT"
+}
